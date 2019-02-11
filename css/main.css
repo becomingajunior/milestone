@@ -1,0 +1,161 @@
+/***** BASE STYLES *****/
+body {
+  font-family: 'Lato', sans-serif;
+}
+@font-face {
+  font-family: Milkshake;
+  src: url('../fonts/milkshake.otf') format('opentype');
+}
+#portfolio {
+  height: 1400px;
+}
+#about {
+  height: 550px;
+}
+#contact {
+  height: 400px;
+}
+/***** GRID *****/
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+.half-width {
+    width: 600px;
+    float:left;
+}
+.third-width {
+    width: 400px;
+    float:left;
+}
+/*****HEADER*****/
+header {
+    height: 775px;
+    background: url('../img/hero.jpg');
+    background-size: cover;
+    margin-top: -40px;
+  }
+header h1 {
+    font-family: 'Milkshake';
+    font-size: 60px;
+    color: #92b072;
+    padding-left: 25px;
+    padding-top: 30px;
+    margin-bottom: 0;
+}
+header p {
+    font-family: 'Merriweather', serif;
+    font-size: 45px;
+    color: #9eb072;
+    margin-top: 15px;
+    padding-left: 10px;
+    padding-right: 520px;
+}
+/****Portfolio****/
+#portfolio {
+  background: #f2f2f2;
+}
+#portfolio img{
+  border: 1px solid #b7b7b7;
+  margin-bottom: 50px;
+}
+#portfolio h3 {
+  padding-top: 36px;
+  margin-top: 0;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  color: #254772;
+  font-family: 'Merriweather', serif;
+}
+#portfolio h4 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #254772;
+  margin-bottom: -22px;
+  padding-left: 50px;
+  margin-top: 0px;
+}
+#portfolio p {
+  font-size: 24px;
+  font-weight: normal;
+  color: #254772;
+  padding-left: 50px;
+}
+#portfolio #weber {
+  padding-bottom: 145px;
+}
+#portfolio #rogue {
+  padding-bottom: 110px;
+}
+/****ABOUT****/
+#about {
+  background: #101f32;
+}
+#about img {
+  border: 1px solid black;
+  margin-left: 150px;
+}
+#about h3 {
+  font-size: 36px;
+  font-weight: normal;
+  text-align: center;
+  color: #f2f2f2;
+  font-family: 'Merriweather', serif;
+  padding-bottom: 20px;
+  padding-top: 40px;
+  margin-top: 0;
+}
+#about p, ul li {
+  font-size: 24px;
+  color: #f2f2f2;
+}
+#about p {
+  margin-top: 0px;
+}
+/****Contact****/
+#contact {
+  background: #9eb072;
+}
+#contact ul li {
+     display: inline-block;
+}
+#contact ul img {
+    padding-right: 55px;
+    padding-left: 12px;
+}
+#contact h4 {
+  font-size: 24px;
+  text-align: center;
+  color: #f2f2f2;
+}
+#contact h3 {
+  text-align: center;
+  color: #f2f2f2;
+  font-size: 36px;
+  font-weight: bold;
+  font-family: 'Merriweather', serif;
+  margin-top: 0;
+  padding-top: 40px;
+}
+#contact p {
+  color: #f2f2f2;
+  font-size: 24px;
+  text-align: center;
+}
+#contact a {
+  text-decoration: none;
+  color: #f2f2f2;
+}
+/****Footer****/
+footer {
+  background: #9eb072;
+  height: 75px;
+}
+footer p {
+  text-align: center;
+  font-size: 18px;
+  color: #f2f2f2;
+  margin-top: 0;
+  padding-top: 30px;
+}
